@@ -1,3 +1,4 @@
+@import "base.css";
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
@@ -1481,8 +1482,13 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
+		@media screen and (max-width: 790px) {
+			#top  ul {
+				visibility: visible;
+			}
+			.toggle {
+				display: none;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1752,6 +1758,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			display: block;
 		}
 
 		.image.avatar48 {
@@ -1774,6 +1781,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			
 		}
 
 		.image.left {
@@ -2234,8 +2242,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
-			}
+/* 				background-image: url("../../images/banner.jpg");
+ */			}
 
 			#main > section.two {
 				background-color: #f5fafa;
@@ -2291,6 +2299,10 @@ input, select, textarea {
 
 			#main section.cover {
 				padding: 5em 0;
+				width: 700px;
+				padding: 5em 0;
+				height: 500px;
+				margin: 5% auto auto;
 			}
 
 	}
@@ -2324,6 +2336,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
+				background-color: #312350;
 				width: 20%;
 			}
 
