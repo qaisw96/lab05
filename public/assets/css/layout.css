@@ -1,0 +1,15 @@
+#top  ul {
+    visibility: hidden;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 30px;
+}
+
+
+#top  ul li {
+    padding: 10px;
+    margin-right: 20px;
+}
